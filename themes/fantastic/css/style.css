@@ -32,6 +32,8 @@ body {
     /* flex: 1 0 auto; */
     width: 50%;
     margin: 0 auto; 
+    font-size: 1rem;
+
 }
 
 .main img {
@@ -40,7 +42,6 @@ body {
 
 p {
     margin-bottom: 1.4rem;
-    font-size: 1.1rem;
 }
 
 .header, .footer {
@@ -87,7 +88,7 @@ div.logo img {
 }
 
 .title a {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
