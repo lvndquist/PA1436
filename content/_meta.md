@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/lvndquist_logo.png
+Logo: image/lvndquist_logo.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
