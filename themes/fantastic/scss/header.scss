@@ -1,0 +1,79 @@
+/* Header */
+
+.header {
+  flex: 0 0 auto;
+}
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Title */
+
+.title {
+  padding: 0 3em 1em 0;
+}
+
+.title h1,
+.title p {
+  margin: 0;
+
+}
+
+.title h1 {
+  color: $title-color;
+  padding: 1.3rem 0 0;
+}
+
+@media (max-width: 767px) {
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+
+  .title {
+    min-width: 50%;
+  }
+
+  .logo {
+    max-width: 30%;
+  }
+}
+
+.title * {
+  color: #111;
+}
+
+.title h1 {
+  font-size: 3rem;
+}
+
+.title p {
+  font-style: italic;
+}
+
+.title a {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.title a:hover h1 {
+  text-decoration: underline;
+  text-decoration-color: $title-color;
+}
+

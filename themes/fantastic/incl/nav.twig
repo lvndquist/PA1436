@@ -10,6 +10,8 @@
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
             <a href="{{ base_url }}">
                 <h1>{{ site_title }}</h1>
+            </a>
+            <a href="{{ base_url }}">
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>

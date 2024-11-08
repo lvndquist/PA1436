@@ -1,0 +1,73 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import 'blockquotes';
+@import 'code';
+@import 'typography';
+@import 'header';
+@import 'footer';
+
+body {
+  background-color: $background-color;
+  margin: 0 1rem;
+}
+
+* {
+  color: $font-color;
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  border-left: 3px solid rgb(128, 128, 128);
+  padding-left: 1rem;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+/* Placement */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  /* flex: 1 0 auto; */
+  width: 50%;
+  margin: 0 auto;
+  min-height: 35rem;
+}
+
+table,
+ul {
+  margin-bottom: 1rem;
+}
+
+.main img {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.social a {
+  margin-right: 1rem;
+}
