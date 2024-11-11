@@ -2,7 +2,10 @@
 Logo: image/lvndquist_logo.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
+    - title: Länk till sidans github repo.
       url: https://github.com/lvndquist/PA1436
-      icon: github
+      icon: fab fa-github
+    - title: Länk till min soundcloud.
+      url: https://soundcloud.com/lvndquist
+      icon: fab fa-soundcloud
 ---

@@ -1,0 +1,24 @@
+{
+  "name": "themes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "lint": "stylelint \"**/*.scss\"",
+    "style": "sass fantastic/scss/style.scss fantastic/css/style.css --no-source-map",
+    "style-min": "sass fantastic/scss/style.scss fantastic/css/style.min.css --no-source-map --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.80.6",
+    "stylelint": "^16.10.0",
+    "stylelint-config-sass-guidelines": "^12.1.0",
+    "stylelint-scss": "^6.8.1"
+  }
+}

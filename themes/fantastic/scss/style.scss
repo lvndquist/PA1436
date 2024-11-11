@@ -12,6 +12,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'typography';
 @import 'header';
 @import 'footer';
+@import 'technology';
 
 body {
   background-color: $background-color;
@@ -53,8 +54,7 @@ body {
 }
 
 .main {
-  /* flex: 1 0 auto; */
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
   min-height: 35rem;
 }
@@ -70,4 +70,11 @@ ul {
 
 .social a {
   margin-right: 1rem;
+}
+
+@media (max-width: 900px) {
+  .main {
+    width: 100%; /* Take full width on smaller screens */
+    margin: 0;   /* Remove centering margin on smaller screens */
+  }
 }

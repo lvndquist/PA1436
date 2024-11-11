@@ -1,0 +1,170 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import 'blockquotes';
+@import 'code';
+@import 'typography';
+
+body {
+  background-color: $background-color;
+  margin: 0 1rem;
+}
+
+* {
+  color: $font-color;
+  box-sizing: border-box;
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  padding-left: 1.5em;
+}
+
+.hidden {
+  display: none !important;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+/* Placement */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  /* flex: 1 0 auto; */
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1rem;
+  height: 100%;
+}
+
+.main img {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  margin-bottom: 1.4rem;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+/* Header */
+
+.header,
+.site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Title */
+
+.title,
+.logo {
+  padding: 2em 3em 1em 0;
+}
+
+@media (max-width: 767px) {
+  .title,
+  .logo {
+    padding: 1em 1em 1em 0;
+  }
+
+  .title {
+    min-width: 50%;
+  }
+
+  .logo {
+    max-width: 30%;
+  }
+}
+
+.title * {
+  color: #111;
+}
+
+.title p {
+  font-style: italic;
+}
+
+.title a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.nav a {
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #222;
+  padding-top: 1rem;
+}
+
+.footer a {
+  color: #222;
+}
+
+.footer .social {
+  font-size: 2rem;
+}
+
+/* Typografy */
+
+body {
+  line-height: 1.5rem;
+}
+
+p,
+td,
+th,
+li,
+dd {
+  text-align: justify;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
