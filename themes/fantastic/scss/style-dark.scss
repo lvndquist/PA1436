@@ -13,7 +13,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'header';
 @import 'footer';
 @import 'technology';
-@import 'light-colors';
+@import 'dark-colors';
 
 body {
   margin: 0 1rem;
@@ -26,12 +26,12 @@ body {
   padding: 0;
 }
 
-.content {
-  padding-left: 1rem;
+pre {
+    margin-top: 1rem;
 }
 
-pre {
-  margin-top: 1rem;
+.content {
+  padding-left: 1rem;
 }
 
 ol,
@@ -64,6 +64,10 @@ body {
 .content table,
 .content ul {
   margin-bottom: 1rem;
+}
+
+.main img {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .social a {

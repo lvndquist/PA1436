@@ -3,12 +3,11 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 2px solid #222;
   padding-top: 1rem;
 }
 
 .footer a {
-  color: #222;
+  text-decoration: none;
 }
 
 .footer .social {

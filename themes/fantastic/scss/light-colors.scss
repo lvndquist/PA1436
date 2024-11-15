@@ -1,0 +1,50 @@
+body {
+    background-color: $background-color-light;
+}
+
+* {
+  color: $font-color-light;
+}
+
+.nav a {
+    color: $font-color-light;
+}
+
+.title a h1 {
+    color: $title-color-light;
+}
+
+.title a:hover h1 {
+    text-decoration-color: $title-color-light;
+}
+
+.content {
+    border-left: 3px solid $border-color-light;
+}
+
+.footer a {
+    color: $font-color-light;
+}
+
+.footer {
+    border-top: 2px solid $border-color-light;
+}
+
+code, pre {
+    background-color: $code-background-light;
+    color: $code-font-light;
+    border: 1px solid $code-background-light;
+}
+
+.landingpage {
+    box-shadow: 4px 4px 8px $box-shadow-light;
+}
+
+.box {
+    border: 1px solid $tech-border-light;
+}
+
+.main img {
+    box-shadow: 10px 10px 15px $box-shadow-light;
+}
+  

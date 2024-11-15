@@ -1,0 +1,53 @@
+body {
+    background-color: $background-color-dark;
+}
+
+* {
+  color: $font-color-dark;
+}
+
+.nav a {
+    color: $font-color-dark;
+}
+
+.title a h1 {
+    color: $title-color-dark;
+}
+
+.title a:hover h1 {
+    text-decoration-color: $title-color-dark;
+}
+
+.content {
+    border-left: 3px solid $border-color-dark;
+}
+
+.footer a {
+    color: $font-color-dark;
+}
+
+.footer {
+    border-top: 2px solid $border-color-dark;
+}
+
+code, pre {
+    background-color: $code-background-dark;
+    color: $code-font-dark;
+    border: 1px solid $code-background-dark;
+}
+
+.landingpage {
+    box-shadow: 4px 4px 8px $box-shadow-dark;
+}
+
+.box {
+    border: 1px solid $tech-border-dark;
+}
+
+.main img {
+    box-shadow: 4px 4px 8px $box-shadow-dark;
+}
+
+.logo img {
+    filter: brightness(0.5);
+}

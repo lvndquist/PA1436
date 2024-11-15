@@ -1,11 +1,19 @@
 <div class="header" role="banner">
     <div class="site-header">
-        {% if pages["_meta"].meta.logo %}
-        <div class="logo">
-            <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-            </a>
-        </div>
+        {% if pages["_meta"].meta.LogoDark or pages["_meta"].meta.LogoLight %}
+            {% if config.session.theme == "dark" %}
+                <div class="logo">
+                    <a href="{{ base_url }}">
+                        <img src="{{ base_url }}/{{ pages["_meta"].meta.LogoDark|url }}" alt="" />
+                    </a>
+                </div>
+            {% else %}
+                <div class="logo">
+                    <a href="{{ base_url }}">
+                        <img src="{{ base_url }}/{{ pages["_meta"].meta.LogoLight|url }}" alt="" />
+                    </a>
+                </div>
+            {% endif %}
         {% endif %}
         <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
             <a href="{{ base_url }}">
@@ -24,6 +32,12 @@
     <div class="nav">
         <div id="nav" role="navigation" tabindex="-1">
             <ul>
+                <li>
+                    <a href="{{ pages["_meta"].meta.Control[0].url }}" title="{{ pages["_meta"].meta.Control[0].title }}" role="button">
+                        <i class="{{ pages["_meta"].meta.Control[0].icon }}" aria-hidden="true"></i>
+                        <span class="sr-only">{{ pages["_meta"].meta.Control[0].title}}</span>
+                    </a>
+                </li>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
                     <li{% if page.id==current_page.id %} class="active" {% endif %}>
                         <a href="{{ page.url }}">{{ page.title }}</a>
