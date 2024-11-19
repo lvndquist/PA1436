@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url(https://db.onlinewebfonts.com/c/22bbdd53424bef8a0c11fde5ed420f5f?family=NordeaSansSmall-Regular);
+@import url(https://db.onlinewebfonts.com/c/095df2d8a2d98ea67750c993758df467?family=NordeaSansLarge-Bold);
+@import url(https://db.onlinewebfonts.com/c/25cb6845cb99afb2f536ee7861d32413?family=Volvo+Novum+Regular);
+
+@font-face {
+  font-family: 'SEBSansSerif-Regular'; 
+  src: url('../fonts/SEBSansSerif-Regular.woff') format('woff'); 
+}
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -38,6 +46,18 @@ h6 {
   line-height: 0.9;
 }
 
+h2 {
+  padding: .5rem 0 .5rem;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
 img {
   max-width: 100%;
 }
@@ -52,6 +72,23 @@ p {
 
 p {
   margin-bottom: 1.4rem;
+}
+
+.nordea-font-small {
+  font-family: "NordeaSansSmall-Regular";
+}
+
+.nordea-font-large {
+  font-family: "NordeaSansLarge-Bold";
+  font-weight: 100;
+}
+
+.volvo-font {
+  font-family: "Volvo Novum Regular";
+}
+
+.SEB-font {
+  font-family: "SEBSansSerif-Regular";
 }
 
 @media (min-width: 64em) {

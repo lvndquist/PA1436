@@ -1,5 +1,5 @@
 body {
-    background-color: $background-color-light;
+  background-color: $background-color-light;
 }
 
 * {
@@ -7,44 +7,53 @@ body {
 }
 
 .nav a {
-    color: $font-color-light;
+  color: $font-color-light;
 }
 
 .title a h1 {
-    color: $title-color-light;
+  color: $title-color-light;
 }
 
 .title a:hover h1 {
-    text-decoration-color: $title-color-light;
+  text-decoration-color: $title-color-light;
 }
 
 .content {
-    border-left: 3px solid $border-color-light;
+  border-left: 3px solid $border-color-light;
 }
 
 .footer a {
-    color: $font-color-light;
+  color: $font-color-light;
 }
 
 .footer {
-    border-top: 2px solid $border-color-light;
+  border-top: 2px solid $border-color-light;
 }
 
-code, pre {
-    background-color: $code-background-light;
-    color: $code-font-light;
-    border: 1px solid $code-background-light;
+code,
+pre {
+  background-color: $code-background-light;
+  color: $code-font-light;
+  border: 1px solid $code-background-light;
 }
 
 .landingpage {
-    box-shadow: 4px 4px 8px $box-shadow-light;
+  box-shadow: 4px 4px 8px $box-shadow-light;
 }
 
 .box {
-    border: 1px solid $tech-border-light;
+  border: 1px solid $tech-border-light;
 }
 
 .main img {
+  box-shadow: 10px 10px 15px $box-shadow-light;
+}
+
+.box-shadow {
     box-shadow: 10px 10px 15px $box-shadow-light;
 }
-  
+
+h3 {
+    border-top: 2px solid $tech-border-light;
+    padding-top: 1.5rem;
+}

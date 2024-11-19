@@ -6,6 +6,9 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url(https://db.onlinewebfonts.com/c/22bbdd53424bef8a0c11fde5ed420f5f?family=NordeaSansSmall-Regular);
+@import url(https://db.onlinewebfonts.com/c/095df2d8a2d98ea67750c993758df467?family=NordeaSansLarge-Bold);
+@import url(https://db.onlinewebfonts.com/c/25cb6845cb99afb2f536ee7861d32413?family=Volvo+Novum+Regular);
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -6459,6 +6462,10 @@ pre code {
   line-height: 1.4;
 }
 
+@font-face {
+  font-family: "SEBSansSerif-Regular";
+  src: url("../fonts/SEBSansSerif-Regular.woff") format("woff");
+}
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -6497,6 +6504,18 @@ h6 {
   line-height: 0.9;
 }
 
+h2 {
+  padding: 0.5rem 0 0.5rem;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
 img {
   max-width: 100%;
 }
@@ -6511,6 +6530,23 @@ p {
 
 p {
   margin-bottom: 1.4rem;
+}
+
+.nordea-font-small {
+  font-family: "NordeaSansSmall-Regular";
+}
+
+.nordea-font-large {
+  font-family: "NordeaSansLarge-Bold";
+  font-weight: 100;
+}
+
+.volvo-font {
+  font-family: "Volvo Novum Regular";
+}
+
+.SEB-font {
+  font-family: "SEBSansSerif-Regular";
 }
 
 @media (min-width: 64em) {
@@ -6546,7 +6582,7 @@ p {
 .title h1,
 .title p {
   margin: 0;
-  padding: 1rem 0 0 0;
+  padding: 1rem 0 0;
 }
 
 .nav ul {
@@ -6675,41 +6711,42 @@ p {
   }
 }
 body {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 
 * {
-  color: #6F6E78;
+  color: #9999A8;
 }
 
 .nav a {
-  color: #6F6E78;
+  color: #9999A8;
 }
 
 .title a h1 {
-  color: #6F6E78;
+  color: #9999A8;
 }
 
 .title a:hover h1 {
-  text-decoration-color: #6F6E78;
+  text-decoration-color: #9999A8;
 }
 
 .content {
-  border-left: 3px solid #6F6E78;
+  border-left: 3px solid #9999A8;
 }
 
 .footer a {
-  color: #6F6E78;
+  color: #9999A8;
 }
 
 .footer {
-  border-top: 2px solid #6F6E78;
+  border-top: 2px solid #9999A8;
 }
 
-code, pre {
-  background-color: #6F6E78;
+code,
+pre {
+  background-color: #9999A8;
   color: #262627;
-  border: 1px solid #6F6E78;
+  border: 1px solid #9999A8;
 }
 
 .landingpage {
@@ -6717,7 +6754,7 @@ code, pre {
 }
 
 .box {
-  border: 1px solid #6F6E78;
+  border: 1px solid #9999A8;
 }
 
 .main img {
@@ -6725,7 +6762,7 @@ code, pre {
 }
 
 .logo img {
-  filter: brightness(0.5);
+  filter: brightness(0.7);
 }
 
 body {
@@ -6784,6 +6821,16 @@ body {
 
 .social a {
   margin-right: 1rem;
+}
+
+.font-display {
+  padding: 0.5rem;
+}
+
+.font-display p {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 @media (max-width: 900px) {

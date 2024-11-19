@@ -26,6 +26,10 @@ body {
   padding: 0;
 }
 
+.inline {
+  display: inline;
+}
+
 .content {
   padding-left: 1rem;
 }
@@ -68,6 +72,16 @@ body {
 
 .social a {
   margin-right: 1rem;
+}
+
+.font-display {
+  padding: .5rem;
+}
+
+.font-display p {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 @media (max-width: 900px) {

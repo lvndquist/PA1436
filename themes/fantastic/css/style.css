@@ -6,6 +6,9 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url(https://db.onlinewebfonts.com/c/22bbdd53424bef8a0c11fde5ed420f5f?family=NordeaSansSmall-Regular);
+@import url(https://db.onlinewebfonts.com/c/095df2d8a2d98ea67750c993758df467?family=NordeaSansLarge-Bold);
+@import url(https://db.onlinewebfonts.com/c/25cb6845cb99afb2f536ee7861d32413?family=Volvo+Novum+Regular);
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -6459,6 +6462,10 @@ pre code {
   line-height: 1.4;
 }
 
+@font-face {
+  font-family: "SEBSansSerif-Regular";
+  src: url("../fonts/SEBSansSerif-Regular.woff") format("woff");
+}
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -6497,6 +6504,18 @@ h6 {
   line-height: 0.9;
 }
 
+h2 {
+  padding: 0.5rem 0 0.5rem;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
 img {
   max-width: 100%;
 }
@@ -6511,6 +6530,23 @@ p {
 
 p {
   margin-bottom: 1.4rem;
+}
+
+.nordea-font-small {
+  font-family: "NordeaSansSmall-Regular";
+}
+
+.nordea-font-large {
+  font-family: "NordeaSansLarge-Bold";
+  font-weight: 100;
+}
+
+.volvo-font {
+  font-family: "Volvo Novum Regular";
+}
+
+.SEB-font {
+  font-family: "SEBSansSerif-Regular";
 }
 
 @media (min-width: 64em) {
@@ -6546,7 +6582,7 @@ p {
 .title h1,
 .title p {
   margin: 0;
-  padding: 1rem 0 0 0;
+  padding: 1rem 0 0;
 }
 
 .nav ul {
@@ -6675,7 +6711,7 @@ p {
   }
 }
 body {
-  background-color: #F9D2E7;
+  background-color: #f9d2e7;
 }
 
 * {
@@ -6687,15 +6723,15 @@ body {
 }
 
 .title a h1 {
-  color: #E44E9E;
+  color: #e44e9e;
 }
 
 .title a:hover h1 {
-  text-decoration-color: #E44E9E;
+  text-decoration-color: #e44e9e;
 }
 
 .content {
-  border-left: 3px solid #F3A5CE;
+  border-left: 3px solid #f3a5ce;
 }
 
 .footer a {
@@ -6703,13 +6739,14 @@ body {
 }
 
 .footer {
-  border-top: 2px solid #F3A5CE;
+  border-top: 2px solid #f3a5ce;
 }
 
-code, pre {
-  background-color: #E44E9E;
-  color: #F9D2E7;
-  border: 1px solid #E44E9E;
+code,
+pre {
+  background-color: #e44e9e;
+  color: #f7dfec;
+  border: 1px solid #e44e9e;
 }
 
 .landingpage {
@@ -6717,11 +6754,20 @@ code, pre {
 }
 
 .box {
-  border: 1px solid #F3A5CE;
+  border: 1px solid #f3a5ce;
 }
 
 .main img {
   box-shadow: 10px 10px 15px rgba(91, 91, 91, 0.3019607843);
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 15px rgba(91, 91, 91, 0.3019607843);
+}
+
+h3 {
+  border-top: 2px solid #f3a5ce;
+  padding-top: 1.5rem;
 }
 
 body {
@@ -6733,6 +6779,10 @@ body {
   border: 0 none;
   margin: 0;
   padding: 0;
+}
+
+.inline {
+  display: inline;
 }
 
 .content {
@@ -6776,6 +6826,16 @@ body {
 
 .social a {
   margin-right: 1rem;
+}
+
+.font-display {
+  padding: 0.5rem;
+}
+
+.font-display p {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 @media (max-width: 900px) {
