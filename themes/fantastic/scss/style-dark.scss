@@ -14,6 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'footer';
 @import 'technology';
 @import 'dark-colors';
+@import 'gallery';
 
 body {
   margin: 0 1rem;
@@ -46,6 +47,8 @@ ul {
 html,
 body {
   min-height: 100%;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* Placement */
@@ -66,28 +69,27 @@ body {
   margin-bottom: 1rem;
 }
 
-.main img {
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-}
+// .main img {
+//   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+// }
 
 .social a {
   margin-right: 1rem;
 }
 
 .font-display {
-    padding: .5rem;
-  }
+  padding: 0.5rem;
+}
   
-  .font-display p {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
+.font-display p {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
   
-
 @media (max-width: 900px) {
   .main {
-    width: 100%; /* Take full width on smaller screens */
-    margin: 0;   /* Remove centering margin on smaller screens */
+    width: 100%;
+    margin: 0;
   }
 }

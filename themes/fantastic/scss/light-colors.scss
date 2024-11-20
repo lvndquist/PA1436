@@ -50,10 +50,16 @@ pre {
 }
 
 .box-shadow {
-    box-shadow: 10px 10px 15px $box-shadow-light;
+  box-shadow: 10px 10px 15px $box-shadow-light;
 }
 
 h3 {
-    border-top: 2px solid $tech-border-light;
-    padding-top: 1.5rem;
+  border-top: 2px solid $tech-border-light;
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .main img {
+    box-shadow: none;
+  }
 }

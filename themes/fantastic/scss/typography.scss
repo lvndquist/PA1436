@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-@import url(https://db.onlinewebfonts.com/c/22bbdd53424bef8a0c11fde5ed420f5f?family=NordeaSansSmall-Regular);
-@import url(https://db.onlinewebfonts.com/c/095df2d8a2d98ea67750c993758df467?family=NordeaSansLarge-Bold);
-@import url(https://db.onlinewebfonts.com/c/25cb6845cb99afb2f536ee7861d32413?family=Volvo+Novum+Regular);
+@import url("https://db.onlinewebfonts.com/c/22bbdd53424bef8a0c11fde5ed420f5f?family=NordeaSansSmall-Regular");
+@import url("https://db.onlinewebfonts.com/c/095df2d8a2d98ea67750c993758df467?family=NordeaSansLarge-Bold");
+@import url("https://db.onlinewebfonts.com/c/25cb6845cb99afb2f536ee7861d32413?family=Volvo+Novum+Regular");
 
 @font-face {
-  font-family: 'SEBSansSerif-Regular'; 
+  font-family: 'SEBSansSerif-Regular';
   src: url('../fonts/SEBSansSerif-Regular.woff') format('woff'); 
 }
 
@@ -47,7 +47,7 @@ h6 {
 }
 
 h2 {
-  padding: .5rem 0 .5rem;
+  padding: 0.5rem 0;
 }
 
 h3 {
@@ -75,20 +75,20 @@ p {
 }
 
 .nordea-font-small {
-  font-family: "NordeaSansSmall-Regular";
+  font-family: 'NordeaSansSmall-Regular';
 }
 
 .nordea-font-large {
-  font-family: "NordeaSansLarge-Bold";
+  font-family: 'NordeaSansLarge-Bold';
   font-weight: 100;
 }
 
 .volvo-font {
-  font-family: "Volvo Novum Regular";
+  font-family: 'Volvo Novum Regular';
 }
 
-.SEB-font {
-  font-family: "SEBSansSerif-Regular";
+.seb-font {
+  font-family: 'SEBSansSerif-Regular';
 }
 
 @media (min-width: 64em) {
