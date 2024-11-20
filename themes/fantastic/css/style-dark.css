@@ -6,9 +6,9 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
-@import url(https://db.onlinewebfonts.com/c/22bbdd53424bef8a0c11fde5ed420f5f?family=NordeaSansSmall-Regular);
-@import url(https://db.onlinewebfonts.com/c/095df2d8a2d98ea67750c993758df467?family=NordeaSansLarge-Bold);
-@import url(https://db.onlinewebfonts.com/c/25cb6845cb99afb2f536ee7861d32413?family=Volvo+Novum+Regular);
+@import url("https://db.onlinewebfonts.com/c/22bbdd53424bef8a0c11fde5ed420f5f?family=NordeaSansSmall-Regular");
+@import url("https://db.onlinewebfonts.com/c/095df2d8a2d98ea67750c993758df467?family=NordeaSansLarge-Bold");
+@import url("https://db.onlinewebfonts.com/c/25cb6845cb99afb2f536ee7861d32413?family=Volvo+Novum+Regular");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -6505,7 +6505,7 @@ h6 {
 }
 
 h2 {
-  padding: 0.5rem 0 0.5rem;
+  padding: 0.5rem 0;
 }
 
 h3 {
@@ -6545,7 +6545,7 @@ p {
   font-family: "Volvo Novum Regular";
 }
 
-.SEB-font {
+.seb-font {
   font-family: "SEBSansSerif-Regular";
 }
 
@@ -6719,38 +6719,38 @@ body {
 }
 
 * {
-  color: #9999A8;
+  color: #9999a8;
 }
 
 .nav a {
-  color: #9999A8;
+  color: #9999a8;
 }
 
 .title a h1 {
-  color: #9999A8;
+  color: #9999a8;
 }
 
 .title a:hover h1 {
-  text-decoration-color: #9999A8;
+  text-decoration-color: #9999a8;
 }
 
 .content {
-  border-left: 3px solid #9999A8;
+  border-left: 3px solid #9999a8;
 }
 
 .footer a {
-  color: #9999A8;
+  color: #9999a8;
 }
 
 .footer {
-  border-top: 2px solid #9999A8;
+  border-top: 2px solid #9999a8;
 }
 
 code,
 pre {
-  background-color: #9999A8;
+  background-color: #9999a8;
   color: #262627;
-  border: 1px solid #9999A8;
+  border: 1px solid #9999a8;
 }
 
 .landingpage {
@@ -6758,7 +6758,7 @@ pre {
 }
 
 .box {
-  border: 1px solid #9999A8;
+  border: 1px solid #9999a8;
 }
 
 .main img {
@@ -6774,7 +6774,10 @@ pre {
     box-shadow: none;
   }
 }
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -6791,14 +6794,31 @@ img, embed, object, video {
   text-decoration: none;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 2rem 0 1rem 0;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 668px) {
   .gallery-container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    justify-content: center;
     justify-items: center;
-    text-align: center;
   }
 }
 body {
