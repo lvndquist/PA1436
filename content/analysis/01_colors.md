@@ -98,7 +98,7 @@ Ovan är alltså ännu ett akromatiskt färgschema, vilket speglar något seriö
 #### Typografi
 Övergripande på hela webbplatsen används SEB:s egna typsnitt, SEB SansSerif. Titlar och brödtext skiljs främst genom storleken på texten. 
 <div class = "font-display">
-    <p class = "SEB-font">SEB SansSerif används för brödtext samt titlar.</p>
+    <p class = "seb-font">SEB SansSerif används för brödtext samt titlar.</p>
 </div>
 
 SEB:s webbplats är mycket enkel. Samtidgt ryms allt man som kund vill ha, och den enkla stilen med milda fäger gör sidan än mer användbar och överskådlig. 
