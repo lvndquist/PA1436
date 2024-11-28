@@ -1,4 +1,4 @@
-Titel på rapporten
+Analys av laddtider och användbarhet
 =======================
 
 Denna uppgift handlar om att analysera laddningstider och användbarhet för olika webbplatser genom att testa deras prestanda och identifiera möjliga förbättringar.
