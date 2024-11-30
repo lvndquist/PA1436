@@ -6899,11 +6899,9 @@ body {
   padding: 0.5rem;
 }
 
-.content img {
+.start-img {
   float: right;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin: 0 2rem 0 2rem;
 }
 
 .font-display p {
@@ -6920,7 +6918,7 @@ body {
   .content p {
     float: none;
   }
-  .content img {
+  .start-img {
     float: none;
     margin: 0;
     padding: 0;
