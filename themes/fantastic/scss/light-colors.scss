@@ -18,7 +18,7 @@ body {
   text-decoration-color: $title-color-light;
 }
 
-.content {
+.main {
   border-left: 3px solid $border-color-light;
 }
 
@@ -46,11 +46,15 @@ pre {
 }
 
 .main img {
-  box-shadow: 10px 10px 15px $box-shadow-light;
+  box-shadow: 5px 5px 5px $box-shadow-light;
 }
 
 .box-shadow {
   box-shadow: 10px 10px 15px $box-shadow-light;
+}
+
+.main {
+  box-shadow: 5px 5px 5px $box-shadow-light;
 }
 
 h3 {

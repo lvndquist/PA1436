@@ -6532,6 +6532,10 @@ p {
   margin-bottom: 1.4rem;
 }
 
+.content p {
+  margin-bottom: 1rem;
+}
+
 .nordea-font-small {
   font-family: "NordeaSansSmall-Regular";
 }
@@ -6586,7 +6590,7 @@ p {
 .title h1,
 .title p {
   margin: 0;
-  padding: 1rem 0 0;
+  padding: 0.8rem 0 0;
 }
 
 .nav ul {
@@ -6607,7 +6611,7 @@ p {
   }
 }
 .title h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .title p {
@@ -6800,7 +6804,7 @@ video {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  margin: 2rem 0 1rem 0;
+  margin: 2rem 0 1rem;
 }
 
 .embed-container iframe,

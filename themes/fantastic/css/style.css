@@ -6532,6 +6532,10 @@ p {
   margin-bottom: 1.4rem;
 }
 
+.content p {
+  margin-bottom: 1rem;
+}
+
 .nordea-font-small {
   font-family: "NordeaSansSmall-Regular";
 }
@@ -6586,7 +6590,7 @@ p {
 .title h1,
 .title p {
   margin: 0;
-  padding: 1rem 0 0;
+  padding: 0.8rem 0 0;
 }
 
 .nav ul {
@@ -6607,7 +6611,7 @@ p {
   }
 }
 .title h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .title p {
@@ -6734,7 +6738,7 @@ body {
   text-decoration-color: #e44e9e;
 }
 
-.content {
+.main {
   border-left: 3px solid #f3a5ce;
 }
 
@@ -6762,11 +6766,15 @@ pre {
 }
 
 .main img {
-  box-shadow: 10px 10px 15px rgba(91, 91, 91, 0.3019607843);
+  box-shadow: 5px 5px 5px rgba(91, 91, 91, 0.3019607843);
 }
 
 .box-shadow {
   box-shadow: 10px 10px 15px rgba(91, 91, 91, 0.3019607843);
+}
+
+.main {
+  box-shadow: 5px 5px 5px rgba(91, 91, 91, 0.3019607843);
 }
 
 h3 {
@@ -6805,7 +6813,7 @@ video {
   height: 0;
   overflow: hidden;
   max-width: 100%;
-  margin: 2rem 0 1rem 0;
+  margin: 2rem 0 1rem;
 }
 
 .embed-container iframe,
@@ -6842,7 +6850,7 @@ body {
 }
 
 .content {
-  padding-left: 1rem;
+  padding: 0 1rem 0 1rem;
 }
 
 pre {
@@ -6872,9 +6880,10 @@ body {
 }
 
 .main {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   min-height: 35rem;
+  margin-bottom: 1rem;
 }
 
 .content table,
@@ -6890,6 +6899,13 @@ body {
   padding: 0.5rem;
 }
 
+.content img {
+  float: right;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .font-display p {
   justify-content: center;
   text-align: center;
@@ -6900,5 +6916,13 @@ body {
   .main {
     width: 100%;
     margin: 0;
+  }
+  .content p {
+    float: none;
+  }
+  .content img {
+    float: none;
+    margin: 0;
+    padding: 0;
   }
 }

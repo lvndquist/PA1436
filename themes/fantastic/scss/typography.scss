@@ -74,6 +74,10 @@ p {
   margin-bottom: 1.4rem;
 }
 
+.content p {
+  margin-bottom: 1rem;
+}
+
 .nordea-font-small {
   font-family: 'NordeaSansSmall-Regular';
 }
@@ -90,6 +94,7 @@ p {
 .seb-font {
   font-family: 'SEBSansSerif-Regular';
 }
+
 
 @media (min-width: 64em) {
   html {
