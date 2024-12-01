@@ -17,7 +17,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'gallery';
 
 body {
-  margin: 0 1rem;
+  margin: 0;
 }
 
 * {
@@ -27,12 +27,20 @@ body {
   padding: 0;
 }
 
-pre {
-  margin-top: 1rem;
+.inline {
+  display: inline;
 }
 
 .content {
-  padding-left: 1rem;
+  padding: 0 1rem;
+}
+
+.content h1 {
+  padding-bottom: 0.5rem;
+}
+
+pre {
+  margin-top: 1rem;
 }
 
 ol,
@@ -58,20 +66,33 @@ body {
   flex-direction: column;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+
+  to {
+    opacity: 1; 
+  }
+}
+
+body {
+  animation: fadeIn 0.55s ease-in-out;
+  opacity: 1; 
+}
+
 .main {
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
   min-height: 35rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .content table,
 .content ul {
   margin-bottom: 1rem;
 }
-
-// .main img {
-//   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-// }
 
 .social a {
   margin-right: 1rem;
@@ -80,16 +101,31 @@ body {
 .font-display {
   padding: 0.5rem;
 }
-  
+
+.start-img {
+  float: right;
+  margin: 0 2rem;
+}
+
 .font-display p {
   justify-content: center;
   text-align: center;
   align-items: center;
 }
-  
+
 @media (max-width: 900px) {
   .main {
     width: 100%;
+    margin: 0;  
+  }
+
+  .content p {
+    float: none;
+  }
+
+  .start-img {
+    float: none;
     margin: 0;
+    padding: 0;
   }
 }

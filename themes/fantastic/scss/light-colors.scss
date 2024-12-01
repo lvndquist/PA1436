@@ -27,7 +27,11 @@ body {
 }
 
 .footer {
-  border-top: 2px solid $border-color-light;
+  border-top: 1px solid $border-color-light;
+}
+
+.header {
+  border-bottom: 1px solid $border-color-light;
 }
 
 code,
@@ -37,8 +41,8 @@ pre {
   border: 1px solid $code-background-light;
 }
 
-.landingpage {
-  box-shadow: 4px 4px 8px $box-shadow-light;
+code strong {
+  color: $code-font-light;
 }
 
 .box {
@@ -66,4 +70,14 @@ h3 {
   .main img {
     box-shadow: none;
   }
+
+  .header {
+    border-bottom: 0;
+  }
+
+  .main {
+    border: 0;
+    box-shadow: none;
+  }
+
 }

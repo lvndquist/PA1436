@@ -18,7 +18,11 @@ body {
   text-decoration-color: $title-color-dark;
 }
 
-.content {
+code strong {
+  color: $code-font-dark;
+}
+
+.main {
   border-left: 3px solid $border-color-dark;
 }
 
@@ -27,7 +31,11 @@ body {
 }
 
 .footer {
-  border-top: 2px solid $border-color-dark;
+  border-top: 1px solid $border-color-dark;
+}
+
+.header {
+  border-bottom: 1px solid $border-color-light;
 }
 
 code,
@@ -35,10 +43,6 @@ pre {
   background-color: $code-background-dark;
   color: $code-font-dark;
   border: 1px solid $code-background-dark;
-}
-
-.landingpage {
-  box-shadow: 4px 4px 8px $box-shadow-dark;
 }
 
 .box {
@@ -57,4 +61,14 @@ pre {
   .main img {
     box-shadow: none;
   }
+
+  .header {
+    border-bottom: 0;
+  }
+
+  .main {
+    border: 0;
+    box-shadow: none;
+  }
+
 }

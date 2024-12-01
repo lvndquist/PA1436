@@ -2,7 +2,7 @@
 
 .landingpage {
   display: grid;
-  gap: 1em;
+  gap: 1.5em;
   grid-template-columns: 1fr;
   padding: 1.5rem;
   margin: 2rem;
@@ -13,10 +13,30 @@
   justify-self: center;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+
+  to {
+    opacity: 1; 
+  }
+}
+
+body {
+  animation: fadeIn 0.75s ease-in-out;
+  opacity: 1; 
+}
+
 .box {
   border-radius: 15px;
   text-align: center;
   padding: 2rem 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.05);
 }
 
 .span1,
@@ -37,7 +57,13 @@
   padding-right: 2rem;
 }
 
-.tech-menu-item h3 a {
+.tech-menu h2 {
+  border: 0;
+  margin-left: 1rem;
+  padding-top: 0;
+}
+
+.tech-menu-item h2 a {
   text-decoration: none;
 }
 

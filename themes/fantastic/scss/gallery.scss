@@ -16,6 +16,12 @@ video {
 
 .gallery-container a {
   text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.gallery-container a:hover {
+  transform: scale(1.05);
 }
 
 .embed-container {

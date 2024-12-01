@@ -17,7 +17,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'gallery';
 
 body {
-  margin: 0 1rem;
+  margin: 0;
 }
 
 * {
@@ -32,7 +32,11 @@ body {
 }
 
 .content {
-  padding: 0 1rem 0 1rem;
+  padding: 0 1rem;
+}
+
+.content h1 {
+  padding-bottom: 0.5rem;
 }
 
 pre {
@@ -62,11 +66,27 @@ body {
   flex-direction: column;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+
+  to {
+    opacity: 1; 
+  }
+}
+
+body {
+  animation: fadeIn 0.55s ease-in-out;
+  opacity: 1; 
+}
+
 .main {
   width: 70%;
   margin: 0 auto;
   min-height: 35rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .content table,
@@ -84,7 +104,7 @@ body {
 
 .start-img {
   float: right;
-  margin: 0 2rem 0 2rem;
+  margin: 0 2rem;
 }
 
 .font-display p {
@@ -98,9 +118,11 @@ body {
     width: 100%;
     margin: 0;  
   }
+
   .content p {
     float: none;
   }
+
   .start-img {
     float: none;
     margin: 0;
