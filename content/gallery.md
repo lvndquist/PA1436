@@ -113,6 +113,6 @@ Galleri
 
 <div class = "player">
     <div class="embed-container">
-        <iframe src="https://www.youtube.com/embed/Y90t5MFHtiE" frameborder="0" allowfullscreen></iframe>
+        <iframe title = "youtube video"src="https://www.youtube.com/embed/Y90t5MFHtiE" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>

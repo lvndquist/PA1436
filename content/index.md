@@ -6,7 +6,7 @@ Description: This is our index page.
 Jonatan
 ==========================
 
-<img class = "start-img" src="%base_url%/image/me.jpg" alt="Jag">
+<img class = "start-img" src="%base_url%/image/me.JPG" alt="Jag">
 
 Jonatan heter jag och jag är här för att jag gillar programmering. :)
 
